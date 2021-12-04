@@ -1,0 +1,25 @@
+/* Toolbar */
+.toolbar {
+    display: flex;
+    width: 95%;
+    padding: 0.5rem 2.5%;
+    gap: 2rem;
+    justify-content: flex-end;
+    background-color: rgb(6, 6, 206);
+}
+
+/* SiteName */
+.siteName {
+    position: absolute;
+    left: 5rem;
+    background-color: rgb(9, 9, 122);
+}
+
+/* DrawerItem */
+.drawerItem {
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    color: #e3e3e3;
+    font-weight: 500;
+    justify-content: space-evenly;
+}

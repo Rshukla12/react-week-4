@@ -1,10 +1,12 @@
 import React from "react";
-import ReactSidebar from "./React Sidebar/ReactSidebar";
+import Navbar from "./React Navbar/Navbar";
+// import ReactSidebar from "./React Sidebar/ReactSidebar";
 
 const Composition = () => {
     return (
         <div>
-            <ReactSidebar />
+            {/* <ReactSidebar /> */}
+            <Navbar />
         </div>
     )
 }
