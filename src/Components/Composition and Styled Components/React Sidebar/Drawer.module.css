@@ -1,0 +1,32 @@
+.drawer {
+    width: 10%;
+    border: 1px solid gray;
+    padding: 0rem;
+    border-top: none;
+    border-bottom: none;
+    margin: auto;
+}
+.drawerChild {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+/* DrawerItem */
+.drawerItem {
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconCont {
+    width: 10%;
+}
+.icon {
+    width: 100%;
+}
+.label {
+    width: 70%;
+    text-align: left;
+    margin-top: -0.15rem;
+}
