@@ -1,13 +1,18 @@
 import React from "react";
-import AuthContextApp from "./Auth Context/AuthContextApp";
-import { AuthContextProivder } from "./Context/AuthContextProvider";
+import { ThemeContextProvider } from "./Context/ThemeContextProvider";
+import ThemedApp from "./Theme Context/ThemedApp";
+// import AuthContextApp from "./Auth Context/AuthContextApp";
+// import { AuthContextProivder } from "./Context/AuthContextProvider";
 
 const ContextApp = () => {
     return (
         <div>
-            <AuthContextProivder >
+            {/* <AuthContextProivder >
                 <AuthContextApp />
-            </AuthContextProivder>
+            </AuthContextProivder> */}
+            <ThemeContextProvider>
+                <ThemedApp />
+            </ThemeContextProvider>
         </div>
     )
 }
