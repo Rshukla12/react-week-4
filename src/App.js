@@ -1,5 +1,6 @@
 import './App.css';
-import Dashboard from './Dashboard App/Dashboard';
+import DynamicRouter from './Router - 2/DynamicRouter';
+// import Dashboard from './Dashboard App/Dashboard';
 // import ContextApp from './Components/Context API/ContextApp';
 // import StyledComponents from './Components/Composition and Styled Components/Styled Components/StyledComponents';
 // import Composition from './Components/Composition and Styled Components/Composition';
@@ -10,7 +11,8 @@ function App() {
       {/* <Composition /> */}
       {/* <StyledComponents /> */}
       {/* <ContextApp /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <DynamicRouter />
     </div>
   );
 }
