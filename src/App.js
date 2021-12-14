@@ -1,5 +1,6 @@
 import './App.css';
-import DynamicRouter from './Router - 2/DynamicRouter';
+import PrivateRoutesApp from './Router - 5/PrivateRoutesApp';
+// import DynamicRouter from './Router - 2/DynamicRouter';
 // import Dashboard from './Dashboard App/Dashboard';
 // import ContextApp from './Components/Context API/ContextApp';
 // import StyledComponents from './Components/Composition and Styled Components/Styled Components/StyledComponents';
@@ -12,7 +13,8 @@ function App() {
       {/* <StyledComponents /> */}
       {/* <ContextApp /> */}
       {/* <Dashboard /> */}
-      <DynamicRouter />
+      {/* <DynamicRouter /> */}
+      <PrivateRoutesApp />
     </div>
   );
 }
